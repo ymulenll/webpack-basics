@@ -1,7 +1,9 @@
-function component() {
+import { join } from "lodash-es";
+
+export function component() {
   const element = document.createElement("div");
 
-  element.innerHTML = _.join(
+  element.innerHTML = join(
     ["Hello", "webpack"],
     " "
   );
