@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "scripts": {
+    "build": "webpack --watch"
+  },
   "dependencies": {
     "lodash-es": "^4.17.15"
   },
@@ -12,9 +15,6 @@
     "styles-loader": "^2.0.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
-  },
-  "scripts": {
-    "build": "webpack"
   },
   "keywords": [],
   "author": "",
