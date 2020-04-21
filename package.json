@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --devtool source-map",
-    "start": "webpack-dev-server --debug --devtool cheap-module-eval-source-map --output-pathinfo"
+    "start": "webpack-dev-server -d"
   },
   "dependencies": {
     "lodash-es": "^4.17.15"
