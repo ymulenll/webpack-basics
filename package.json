@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack --watch"
+    "build": "webpack"
   },
   "dependencies": {
     "lodash-es": "^4.17.15"
