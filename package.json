@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "scripts": {
+    "build": "webpack --devtool source-map",
+    "start": "webpack-dev-server -d"
+  },
   "dependencies": {
     "lodash-es": "^4.17.15"
   },
@@ -11,10 +15,8 @@
     "html-webpack-plugin": "^4.2.0",
     "styles-loader": "^2.0.0",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
-  },
-  "scripts": {
-    "build": "webpack"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "keywords": [],
   "author": "",
